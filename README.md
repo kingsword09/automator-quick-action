@@ -1,6 +1,6 @@
 # automator-quick-action
 
-MacOS automator quick action
+VSCode extension quick open in default program.
 
 ## License
 
