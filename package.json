@@ -1,6 +1,6 @@
 {
   "publisher": "kingsword09",
-  "name": "quick-action",
+  "name": "quick-action-open",
   "displayName": "quick-action",
   "version": "0.0.1",
   "private": true,
@@ -77,7 +77,7 @@
     "@antfu/ni": "^0.22.4",
     "@types/node": "^22.4.0",
     "@types/vscode": "^1.92.0",
-    "@vscode/vsce": "^2.32.0",
+    "@vscode/vsce": "^3.0.0",
     "bumpp": "^9.5.1",
     "eslint": "^9.9.0",
     "esno": "^4.7.0",
