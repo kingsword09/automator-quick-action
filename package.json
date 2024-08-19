@@ -51,10 +51,13 @@
       "type": "object",
       "title": "Quick Action",
       "properties": {
-        "quick-action.workflowDirectory": {
-          "type": "string",
-          "default": "~/Library/Services",
-          "description": "The default directory path for saving quick actions for automator."
+        "quick-action.programActions": {
+          "type": "object",
+          "default": {
+            "*.gradle.kts;*.gradle": "Android Studio",
+            "*.xcodeproj;*.xcworkspace": "Xcode"
+          },
+          "description": "Program include files."
         }
       }
     }
